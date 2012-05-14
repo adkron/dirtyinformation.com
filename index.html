@@ -7,13 +7,13 @@ title: Home
 
 <div id='post' class='rmd-on'>
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <time>{{ post.date }}</time>
+  <time>{{ post.date | date_to_string }}</time>
   {{ post.content }}
 </div>
 
 <h2>archive</h2>
 <ul id="archive">
   {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a><abbr>{{ post.date | date_to_string }}</abbr></li>
+    <li><a href="{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date_to_string }}</time></li>
   {% endfor %}
 </ul>

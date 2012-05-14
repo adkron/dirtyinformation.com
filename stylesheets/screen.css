@@ -1,0 +1,12 @@
+time {
+  display: block;
+}
+
+.site .title {
+  display: block;
+  width: 100%;
+}
+
+.site .title h1 {
+  font-variant: small-caps;
+}
