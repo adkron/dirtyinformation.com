@@ -1,0 +1,9 @@
+url: dirtyinformation.com
+base_url: /
+pygments: true
+future: false
+lsi: false
+permalink: /blog/:year/:month/:day/:title
+paginate: 1
+
+

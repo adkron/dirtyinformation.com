@@ -89,6 +89,6 @@ Little is an understatement. My youngest daughter (3 yrs old) is throwing up and
 <li>upmanage misguided decisions through the project manager or the customer directly</li>
 <li>the team will call you if they need you</li>
 <li>even success is met with grumpy bosses…don’t be one of them</li>
-<ul>
+</ul>
 </p>
 <p>
