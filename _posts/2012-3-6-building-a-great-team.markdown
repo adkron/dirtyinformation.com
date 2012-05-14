@@ -2,6 +2,7 @@
 layout: post
 title: A Great Cast of Characters
 ---
+
 Building a great team is a daunting task that is always on my mind. I'm always looking for ways to improve my current team, and to expand it in ways that will challenge each member. Many sleepless nights have been spent on figuring out how to build a team that is constantly improving. The easiest way to get a team that wants to grow is to have the right mix of people on the team. There have been a lot of thoughts on how to build a team, such as the [surgical team](http://en.wikipedia.org/wiki/The_Mythical_Man-Month#The_surgical_team). All these are great, but I have my own ideas that have served me quite well. A team is based on a set of personalities that mix well and challenge each other. The perfect team is made up of the following archetypes:
 
 * The Missourian

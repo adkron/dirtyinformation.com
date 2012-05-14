@@ -1,6 +1,0 @@
-<p><p>I've noticed a lot of individuals have been having problems with the in_place_editor function and using a collection partial.  The problem comes down to an in_place_editor looking for an variable beginning with an @.  So here is the quick fix.</p> <br /> The partial function: <br /> <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
-&lt;p&gt;&lt;pre&gt;
-&amp;lt%= render :partial =&gt; &quot;item&quot;, :collection =&gt; @items %&amp;gt
-&lt;/pre&gt;&lt;/p&gt;</pre> <br /> Inside the Partial: <br /> &lt;p&gt;&lt;pre&gt; &amp;lt%@item = item%&amp;gt &amp;lt%= in_place_editor_field :item, &#8216;on_hand&#8217; %&amp;gt &lt;/p&gt;&lt;/pre&gt; <p>
-I know it is a bit of a hack, but it is a very quick fix.  Happy Coding!
-</p></p>

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    {% incldue head.html %}
+    {% include head.html %}
     <link rel="stylesheet" href="/stylesheets/post.css" type="text/css" media="screen, projection" />
   </head>
 
   <body>
     <div class='site'>
       <div class='title'>
-        <h1><a href="http://{{ site.url }}">DirtyInformation</a></h1>
+        <h1><a href="{{ site.base_url }}">DirtyInformation</a></h1>
       </div>
 
-      <div id='post'>
+      <div id='post' class='rmd-on'>
         <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-        <time>{{ page.date }}</time>
+        <time>{{ page.date | date_to_string }}</time>
         {{ page.content }}
       </div>
     </div>
