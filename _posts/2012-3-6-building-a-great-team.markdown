@@ -1,0 +1,39 @@
+--- 
+layout: post
+title: A Great Cast of Characters
+---
+<p>
+  Building a great team is a daunting task that is always on my mind. I'm always looking for ways to improve my current team, and to expand it in ways that will challenge each member. Many sleepless nights have been spent on figuring out how to build a team that is constantly improving. The easiest way to get a team that wants to grow is to have the right mix of people on the team. There have been a lot of thoughts on how to build a team, such as the <a href="http://en.wikipedia.org/wiki/The_Mythical_Man-Month#The_surgical_team">surgical team</a>. All these are great, but I have my own ideas that have served me quite well. A team is based on a set of personalities that mix well and challenge each other. The perfect team is made up of the following archetypes:
+  <ul>
+    <li>The Missourian</li>
+    <li>The Naysayer</li>
+    <li>The Blob</li>
+    <li>The Flash</li>
+    <li>The Hipster</li>
+    <li>The Apprentice</li>
+  </ul>
+</p>
+<p>
+  Let's just take these one at a time.
+</p>
+<p>
+  The Missourian is from the <a href="http://en.wikipedia.org/wiki/Missouri#State_nickname">Show Me State</a>. No, they don't have to be from Missouri, although it helps. This person never takes your word for anything. Every time you tell the Missourian something he has the same response, "Show Me!" He never takes your word for anything. He can be quite frustrating and will make you angry almost every day. His intentions are good; he wants to learn. The Missourian wants to know how the inside of the machine works. He also wants to make sure that you know what you are talking about. With all of the frustrations he brings he also makes you think about what you are saying. He keeps the other members of the team honest.
+</p>
+<p>
+  The Naysayer can be just as frustrating as the Missourian. Every time you want to introduce a new technology or technique the Naysayer will respond accordingly, "What the heck are you thinking? We have a deadline to meet." The Naysayer will always tell you no. There is always a good reason that the Naysayer can come up with to not do something new. The dead line is too close. That technology is too new, and untested in production. No one knows how to do that. These are all common reasons the Naysayer brings up. Don't let his negativity fool you. He has a lot to offer you, but you have to listen closely. The Naysayer is there to make you take a step back and take a closer look at the decisions you are making. Don't always fall into his trap, but don't ignore him. He can guide you to make the best leaps in new technical directions. He will also keep you from making a leap into a dark cave without a flash light and a plan of escape.
+</p>
+<p>
+  The Blob is not a fat guy. The Blob is that guy that moves so slow when pairing and thinking that you start thinking, "Does this guy have a learning disability?" When you start pairing he always tells you to slow down. When he types you always start to check out due to boredom. STOP checking out. You are missing a lot with this guy. The Blob thinks about every move before he makes it. He maybe slow for many reasons, but he gives himself and you time to think about every code decision. Take the time with him to sit back and breath. Take opportunities with the Blob to think about what he is doing. Talk to him, and get in his head. The Blob will help the members of your team grow in leaps and bounds. He will keep everyone from making the stupid mistakes.
+</p>
+<p>
+  The Flash is faster than <a href="http://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)">Sonic the Hedgehog</a>. When his fingers hit the keyboard your eyes blur and all you see is Blonde, Brunette, Red Head. The code becomes a whirlwind. Keeping up with the Flash will help members of your team learn to think quickly. He will drive the team to recognize patterns in the code, and not look at each line as a single entity. The Flash will teach each member to learn their IDE inside an out. If they don't he will eat them alive and always steal the keyboard. Sitting back in your chair and letting him run is the biggest draw back. Don't let the rest of the team relax on their laurels while he pounds away. In order to work with him you might want to get a pair of <a href="http://en.wikipedia.org/wiki/Pointe_shoe">pointe shoes</a>.
+</p>
+<p>
+  The Hipster was drinking <a href="http://en.wikipedia.org/wiki/Pabst_Blue_Ribbon">PBR</a> before it was the thing to do. He won't drink it anymore because everyone else is doing it. The Hipster always wants to use some new technology that you can't even find with google. He is always going out and looking for something new. Or something that has fallen out of the lime light. The Hipster will push new technologies today, and be bored with them tomorrow. He will keep you learning and keep everyone on the team looking out for what he might bring up next. Some other members will even start pushing themselves at home because they want to beat the Hipster to the next suggestion. Let the Hipster drive the teams motivation to go after new things. Just make sure to keep him and the Naysayer from fighting, but have them pair frequently. What ever decision they make should then be brought to the Missourian for a little Show Me love.
+</p>
+<p>
+  The Apprentice may not know as much as anyone else on the team, but don't let his greatest gift be lost to your team. The Apprentice will ask some of the "dumbest" questions you have ever heard. He will make you take time to explain what an assignment statement does. Why the heck would this guy be on <a href="http://en.wikipedia.org/wiki/The_A-Team">The A Team</a>? Teaching is learning. That is it. As long as you spend the time to teach, you will be constantly learning. Every member of your team will be more effective when they learn to explain themselves in great detail. They will be able to better communicate their ideas to the team and to the customer. Don't let this position be lost, and remember you get to mold the Apprentice into whatever kind of developer you want. You have a great power and responsibility when it comes to the Apprentice.
+</p>
+<p>
+  Remember that each of the characters in this play has an important part in the plot. As a Storyteller(lead) it is your job to make sure that all of these characters are well rounded. If you have a flat character go out and figure out how to use their potential to the betterment of all the players.
+</p>

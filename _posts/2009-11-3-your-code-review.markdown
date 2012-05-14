@@ -1,0 +1,19 @@
+--- 
+layout: post
+title: Your Code Review
+---
+<p>
+Code reviews are often abused and executed in ways that drive developers mad, but when executed correctly they strength relationships and skill sets.
+</p>
+<p>
+Have you ever had your code reviewed and walked away feeling upset or pissed?  What was so bad about it?  Is there better way that the reviewer could have expressed their feelings?
+</p>
+<p>
+Have you ever had a great review?  Did you walk away feeling smarter and more excited about the project?  What did the reviewer do that was so much better than what you have seen from others?
+</p>
+<p>
+Do you do code reviews?  Do you have a checklist that you follow when completing reviews?  What things should you watch for when looking through code?  Are there any good ways to find the trouble spots in code?
+</p>
+<p>
+I know I haven't given much except a list of questions, but I'm working on an article and I had to get these out there to help my brain start going.  I'd love to hear what anyone has to say on the subject.  Thanks.
+</p>

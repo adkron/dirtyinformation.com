@@ -1,0 +1,28 @@
+--- 
+layout: post
+title: SUP
+---
+<p>Stop URL Parameters(SUP)</p>
+<p>
+Any time I see a ?foo=bar in a url I get so frustrated.  I'm especially irritated when it the parameters came from a form.  Let's stop this horrible practice.  If you need parameters great, but pass them with a post or as part of the regular url.
+</p>
+<p>
+I've seen this happening at an increasing rate.  It usually comes with someone trying to follow RESTful principles with their code, but becoming confused along the way.  Here is an example:
+<p>
+<ul>
+  <li>I have a few reports that I want to display based on some dates</li>
+  <li>...I know...that is a "show" method since I'm "showing" data to the user</li>
+  <li>Now I need the report to be based on a date range.</li>
+  <li>I also need a select box for the report type to be chosen.</li>
+  <li>I'll make a form that posts to this action here, and then it will redirect to the correct report.</li>
+  <li>hmm...How am I going to pass those dates along...Eureka! I'll just put  ?start_date=foo&end_date=bar on my URL</li>
+</ul>
+<p>
+Now is the time to say STOP!  Why do you want to do this.  Sit back, and rethink your actions.  Starting down the path of just tossing the parameters into the url can lead to many problems.  It is like a gateway drug.  It seems so easy and useful the first time, and now you've got secure data in the url, and a horrible API, and we won't even talk about error handling and the back-end code that is making this up.  Now that your boss is angry that you passed an SSN in the url you would like to go back and fix this issue once and for all.
+</p>
+<p>
+It is OK to display data with a create or update.  If you have a mental block on this think of it as creating the report.  Then instead of having a new controller for each report, and a show action for each have the create action render a specific template based on the report selected.  The partial can even be the name of the report, then you don't need an if/case block.  Now you've got one small method that is handling all the reports.  If they are complicated create some models for the reports, and your set.
+</p>
+<p>
+I've been wanting to get that off my chest.
+<p>

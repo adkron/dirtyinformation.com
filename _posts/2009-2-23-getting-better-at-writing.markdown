@@ -1,0 +1,7 @@
+--- 
+layout: post
+title: Getting Better at Writing
+---
+<p>
+I'd really like to get better at writing, and get more of the thoughts out that are always clogging up my brain.  My wife is an English teacher and I could have her proof everything, but I don't want to bother her with that.  Since practice makes perfect, I'm going to try to write something every day!  I'm just warning anyone who might actually read this stuff, you might see a lot of gibberish posts when I'm just trying to force something out.
+</p>

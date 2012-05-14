@@ -1,0 +1,13 @@
+--- 
+layout: post
+title: RESTful Wizard
+---
+<p>
+Just before RailsConf 2008 I published <a href='http://github.com/Adkron/actsaswizard'>ActsAsWizard</a>.  A rails plugin for creating RESTful multi-step wizards.  I've been really happy with it, but hadn't pushed it much because of a dependency on acts_as_state_machine that I wanted to remove.
+</p>
+<p>
+Well, I've done it.  Just yesterday I removed all dependencies on acts_as_state_machine, and <a href='http://github.com/Adkron/actsaswizard'>ActsAsWizard</a> is finally a standalone plugin for rails.  In removing acts_as_state_machine I have also removed a lot of dependencies on active record.  The plugin modules are still automatically added to ActiveRecord::Base, but the functionality can be now be used with models that are not ActiveRecord.  In fact I was contacted by one user that is using the wizard to populate session information.
+</p>
+<p>
+If anyone tries out <a href='http://github.com/Adkron/actsaswizard'>ActsAsWizard</a>, please send me any comments or suggestions.  Your help would be greatly appreciated.  Oh, and patches are always welcome.
+</p>
