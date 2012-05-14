@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% incldue head.html %}
+    <link rel="stylesheet" href="/stylesheets/post.css" type="text/css" media="screen, projection" />
+  </head>
+
+  <body>
+    <div class='site'>
+      <div class='title'>
+        <h1><a href="http://{{ site.url }}">DirtyInformation</a></h1>
+      </div>
+
+      <div id='post'>
+        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+        <time>{{ page.date }}</time>
+        {{ page.content }}
+      </div>
+    </div>
+  </body>
+</html>

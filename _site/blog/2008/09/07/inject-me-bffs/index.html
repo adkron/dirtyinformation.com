@@ -1,0 +1,22 @@
+<p>
+I find myself turning to <a href='http://apidock.com/ruby/Enumerable/inject'>Enumberable#inject</a> more and more.  It is such a powerful method, yet I rarely see it used in others' code.  Here are a couple of examples of the power of inject.
+</p><pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;h3&gt;Adding Facorial to All Integers&lt;/a&gt;</pre><pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;pre&gt;
+class Integer
+  def factorial
+    raise &apos;Cannot take a factorial of a negative number&apos; if self &lt; 0
+    return 1 if self == 0
+    (1..self).inject { |total, element| total * element }
+  end
+end
+&lt;/pre&gt;</pre><h3>Removing Touching Matching Elements in an Array Until No Touching Elements Match( thanks Eric )</h3><pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;pre&gt;
+class Array
+  def remove_touchers
+    self.inject([]) { |final, element| final[-1] == element ? final[0..-2] : final &lt;&lt; element }
+  end
+end
+&lt;/pre&gt;</pre><p>
+So, why aren't there more people using this method?  Is it just forgotten?  Are you using <a href='http://apidock.com/ruby/Enumerable/inject'>Enumberable#inject</a>?  How are you using it?
+</p>
