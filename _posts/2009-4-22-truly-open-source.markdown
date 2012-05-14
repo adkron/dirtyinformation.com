@@ -1,7 +1,0 @@
---- 
-layout: post
-title: Truly Open Source
----
-<p>
-I want to have a project that is truly open source.  So I thought I would try an experiment.  I asked <a href='http://github.com/defunkt'>defunkt</a> to completely open <a href='http://github.com/adkron/legacy_woes'>legacy_woes</a> up to everyone with a <a href='http://github.com'>github</a> account.  So feel free to commit whatever you want, but try to keep it in the scope of the gem/plugin.
-</p>
