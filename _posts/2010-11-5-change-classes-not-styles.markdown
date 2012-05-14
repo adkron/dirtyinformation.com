@@ -2,11 +2,12 @@
 layout: post
 title: Change Classes not Styles
 ---
-<p> I've been working with some javascript lately and wanted to see if it made a difference if I was changing the class or inline style of an element.  I had heard that changing classes was faster, but can it really make a big difference?</p>
 
-<h2>YES!!!</h2>
+I've been working with some javascript lately and wanted to see if it made a difference if I was changing the class or inline style of an element.  I had heard that changing classes was faster, but can it really make a big difference?
 
-<p>I coded up a quick <a href="https://gist.github.com/663556">example</a>. Here are the results in ms(all on osx):</p>
+h2. YES!!!
+
+I coded up a quick [example](https://gist.github.com/663556). Here are the results in ms(all on osx):
 <ul>
   <li>Safari 5.0.2
         <ul>
@@ -40,4 +41,4 @@ title: Change Classes not Styles
   </li>
 </ul>
 
-<p>I really didn't expect those kinds of results. Kind of amazing!</p>
+I really didn't expect those kinds of results. Kind of amazing!
