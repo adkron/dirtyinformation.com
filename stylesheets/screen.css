@@ -46,7 +46,7 @@ time {
   display: inline;
 }
 
-#post {
+#post, #disqus_thread {
   width: 960px;
   margin: 0 auto;
 }
