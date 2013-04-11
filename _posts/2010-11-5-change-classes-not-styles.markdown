@@ -1,11 +1,11 @@
---- 
+---
 layout: post
 title: Change Classes not Styles
 ---
 
 I've been working with some javascript lately and wanted to see if it made a difference if I was changing the class or inline style of an element.  I had heard that changing classes was faster, but can it really make a big difference?
 
-h2. YES!!!
+## YES!!!
 
 I coded up a quick [example](https://gist.github.com/663556). Here are the results in ms(all on osx):
 <ul>
