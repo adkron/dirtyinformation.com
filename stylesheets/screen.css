@@ -18,8 +18,15 @@
     display: block;
     float: left;
     margin-right: 2.35765%;
-    width: 100%; }
+    width: 57.35098%; }
     .site .title:last-child {
+      margin-right: 0; }
+  .site .pair {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .site .pair:last-child {
       margin-right: 0; }
   .site #post {
     display: block;

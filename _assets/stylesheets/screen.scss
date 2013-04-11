@@ -6,8 +6,12 @@
   font-family: $georgia;
 
   .title {
-    @include span-columns(12);
+    @include span-columns(7);
   }
+
+  .pair {
+    @include span-columns(4);
+   }
 
   #post {
     @include span-columns(8);
