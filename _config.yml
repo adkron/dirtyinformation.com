@@ -5,4 +5,5 @@ lsi: false
 permalink: /blog/:year/:month/:day/:title
 paginate: 1
 url: http://dirtyinformation.com
+markdown: redcarpet
 

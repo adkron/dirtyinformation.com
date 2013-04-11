@@ -1,0 +1,32 @@
+@import 'bourbon/bourbon';
+@import "neat/neat";
+
+.site {
+  @include outer-container;
+  font-family: $georgia;
+
+  .title {
+    @include span-columns(12);
+  }
+
+  #post {
+    @include span-columns(8);
+  }
+
+  #archive {
+    h2 {
+      @include span-columns(1);
+    }
+    @include span-columns(2);
+    ul {
+      list-style-type: none;
+    }
+  }
+
+  nav {
+    @include span-columns(2);
+    ul {
+      list-style-type: none;
+    }
+  }
+}
