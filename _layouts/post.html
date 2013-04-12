@@ -16,16 +16,13 @@
         </a>
       </div>
 
-
-      {% include nav.html %}
-
       <div id='post'>
         <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
         <time>{{ page.date | date_to_string }}</time>
         {{ content }}
       </div>
 
-      {% include nav.html %}
+      {% include archive.html %}
     </div>
   </body>
 </html>
