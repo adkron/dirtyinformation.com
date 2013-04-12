@@ -9,17 +9,12 @@
       <div class='title'>
         <h1><a href="{{ site.base_url }}">DirtyInformation</a></h1>
       </div>
-
-      <nav>
-        <ul>
-          {% if page.previous %}
-            <li><a href="{{ page.previous.url }}">&lt;</a></li>
-          {% endif %}
-          {% if page.next %}
-            <li><a href="{{ page.next.url }}">&gt;</a></li>
-          {% endif %}
-        </ul>
-      </nav>
+      <div class="pair">
+        <a href="mailto:amos.l.king@gmail.com">
+          <img src="http://pairprogramwith.me/badge.png"
+          alt="Pair program with me!" >
+        </a>
+      </div>
 
       <div id='post'>
         <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
@@ -27,16 +22,7 @@
         {{ content }}
       </div>
 
-      <nav>
-        <ul>
-          {% if page.previous %}
-            <li><a href="{{ page.previous.url }}">&lt;</a></li>
-          {% endif %}
-          {% if page.next %}
-            <li><a href="{{ page.next.url }}">&gt;</a></li>
-          {% endif %}
-        </ul>
-      </nav>
+      {% include archive.html %}
     </div>
   </body>
 </html>
