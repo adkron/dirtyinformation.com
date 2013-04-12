@@ -18,16 +18,27 @@
     @include shift(2);
   }
 
-  .archive {
-    @include row();
-    @include span-columns(12);
+  #archive {
+    @include span-columns(8);
 
-    h2 {
+    .title {
       @include span-columns(12);
     }
 
-    ul {
+    .archived_posts {
+      @include span-columns(12);
       list-style-type: none;
+      .post {
+        @include span-columns(4);
+      }
+    }
+  }
+
+  #contact_info {
+    @include span-columns(4);
+    @include omega();
+    .info {
+      @include span_columns(12);
     }
   }
 

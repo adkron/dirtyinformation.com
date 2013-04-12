@@ -36,29 +36,50 @@
     margin-left: 17.05961%; }
     .site #post:last-child {
       margin-right: 0; }
-  .site .archive {
-    *zoom: 1;
-    display: block;
+  .site #archive {
     display: block;
     float: left;
     margin-right: 2.35765%;
-    width: 100%; }
-    .site .archive:before, .site .archive:after {
-      content: " ";
-      display: table; }
-    .site .archive:after {
-      clear: both; }
-    .site .archive:last-child {
+    width: 65.88078%; }
+    .site #archive:last-child {
       margin-right: 0; }
-    .site .archive h2 {
+    .site #archive .title {
       display: block;
       float: left;
       margin-right: 2.35765%;
       width: 100%; }
-      .site .archive h2:last-child {
+      .site #archive .title:last-child {
         margin-right: 0; }
-    .site .archive ul {
+    .site #archive .archived_posts {
+      display: block;
+      float: left;
+      margin-right: 2.35765%;
+      width: 100%;
       list-style-type: none; }
+      .site #archive .archived_posts:last-child {
+        margin-right: 0; }
+      .site #archive .archived_posts .post {
+        display: block;
+        float: left;
+        margin-right: 2.35765%;
+        width: 31.76157%; }
+        .site #archive .archived_posts .post:last-child {
+          margin-right: 0; }
+  .site #contact_info {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-right: 0; }
+    .site #contact_info:last-child {
+      margin-right: 0; }
+    .site #contact_info .info {
+      display: block;
+      float: left;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .site #contact_info .info:last-child {
+        margin-right: 0; }
   .site nav {
     position: fixed;
     top: 40%;
