@@ -6,27 +6,46 @@
   font-family: $georgia;
 
   .title {
-    @include span-columns(12);
+    @include span-columns(7);
   }
+
+  .pair {
+    @include span-columns(4);
+   }
 
   #post {
     @include span-columns(8);
+    @include shift(2);
   }
 
-  #archive {
+  .archive {
+    @include row();
+    @include span-columns(12);
+
     h2 {
-      @include span-columns(1);
+      @include span-columns(12);
     }
-    @include span-columns(2);
+
     ul {
       list-style-type: none;
     }
   }
 
   nav {
-    @include span-columns(2);
+    position: fixed;
+    top: 40%;
+    left: 15px;
+    &~ nav {
+      left: auto;
+      right: 15px;
+    }
+
     ul {
       list-style-type: none;
+      .prev {
+      }
+      .next {
+      }
     }
   }
 }

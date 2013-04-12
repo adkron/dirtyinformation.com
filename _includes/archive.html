@@ -1,0 +1,8 @@
+<div class="archive">
+  <h2>archive</h2>
+  <ul id="archive">
+    {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date_to_string }}</time></li>
+    {% endfor %}
+  </ul>
+</div>
