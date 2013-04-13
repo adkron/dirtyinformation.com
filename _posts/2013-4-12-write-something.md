@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wrtie Something
+title: Write Something
 ---
 
 Ok so here I go. I don't write often bucase inspiration comes at the
