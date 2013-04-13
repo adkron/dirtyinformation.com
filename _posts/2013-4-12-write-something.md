@@ -43,17 +43,16 @@ I then spent a pomodoro setting up a new Ruby user group. I am now
 organizing two groups, [ PJ ]( http://twitter.com/aspleenic ) would be proud
 or think I'm crazy. You see I organize
 [ STLRuby ]( http://meetup.org/stlruby ) because I've worked 108 miles from
-my home in Saint Louis for the last 6.5 years. Recently I started
-working remotely for [ The Able Few ]( http://theablefew.com ). This puts me
-closer to home and has allowed me to start [ Rolla
-Ruby ]( http://meetup.org/Rolla-Ruby ). I'm so excited to be able to get
-this going. I've wanted this for a while, but haven't had the time with
-all the driving. There is a [ university ]( http://mst.edu ) in Rolla, not
-where I live but close, that I went to for my CS Degree. It had a much
-better name when I went there. I want to reach out to the CS students
-there and get them into testing before they hit the real world and have
-to be taught there. Maybe one of them will speak at a future [ Ruby
-Midwest ]( http://rubymidwest.com )
+my home for 6.5 years. Recently I started working remotely for
+[ The Able Few ]( http://theablefew.com ). This puts me closer to home and
+has allowed me to start [ Rolla Ruby ]( http://meetup.org/Rolla-Ruby ). I'm
+so excited to be able to get this going. I've wanted this for a while, but
+haven't had the time with all the driving. There is a
+[ university ]( http://mst.edu ) in Rolla, not where I live but close, that
+I went to for my CS Degree. It had a much better name when I went there. I
+want to reach out to the CS students there and get them into testing before
+they hit the real world and have to be taught there. Maybe one of them will
+speak at a future [ Ruby Midwest ]( http://rubymidwest.com )
 
 Well, my time is up. Sorry the muse didn't find me today, but I'll be
 back I can promise you another pomodor of that.
