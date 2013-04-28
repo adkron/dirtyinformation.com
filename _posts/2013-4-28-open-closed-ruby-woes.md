@@ -10,7 +10,8 @@ applied in the Ruby community. It took me way to long to get back to
 her, but this topic was going to take some time to properly answer.
 
 The Open/Closed Principle is one of the most misunderstood [SOLID Design
-Prinicples](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)).
+Prinicples](
+http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29).
 Misunderstood might not be the right term. Maybe I should say that it
 puts most people into a nonplus state. Open/Closed isn't something that
 most people strive towards when writing their code. I believe
