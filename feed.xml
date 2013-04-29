@@ -2,20 +2,25 @@
 layout: none
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
+<feed xmlns="http://www.w3.org/2005/Atom">
     <title>{{ site.name }}</title>
-    <description>{{ site.description }}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <subtitle>{{ site.description }}</subtitle>
+    <link href="{{ site.url }}"/>
+    <link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}</id>
+    <author>
+      <name>Amos King</name>
+      <email>amos.l.king@gmail.com</email>
+    </author>
+
     {% for post in site.posts limit:10 %}
-      <item>
-        <title>{{ post.title }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-      </item>
+      <entry>
+        <title>{{ post.title | xml_escape }}</title>
+        <content type="text/html">{{ post.content | xml_escape }}</content>
+        <updated>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</updated>
+        <link href="{{ site.url }}{{ post.url }}"/>
+        <id>{{ site.url }}{{ post.url }}</id>
+      </entry>
     {% endfor %}
-  </channel>
-</rss>
+</feed>
