@@ -6,11 +6,11 @@ title: Open Closed Ruby Woes
 Recently I received an email from a good friend, [Jessica
 Kerr](http://jessitron.com/) about how the [Open/Closed
 Principle](http://en.wikipedia.org/wiki/Open/closed_principle) is
-applied in the Ruby community. It took me way to long to get back to
+applied in the Ruby community. It took me way too long to get back to
 her, but this topic was going to take some time to properly answer.
 
 The Open/Closed Principle is one of the most misunderstood [SOLID Design
-Prinicples](
+Principles](
 http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29).
 Misunderstood might not be the right term. Maybe I should say that it
 puts most people into a nonplus state. Open/Closed isn't something that
@@ -22,12 +22,12 @@ you notice that it is easily extended.
 
 I guess I should take a moment to define Open/Closed in case you missed
 the wiki links which tend to punch holes all over my posts. Open/Closed
-is the that classes are open to extension, but closed to modification. I
-think you might see why this is a little harder to notice than the other
+is the concept that classes are open to extension, but closed to modification.
+I think you might see why this is a little harder to notice than the other
 SOLID principles.
 
 Ok, now let's get back on track like nothing happened. Once your system
-has been matured and refactored, with direction, many times you can find
+has matured and been consciously refactored, many times you can find
 classes in your system that fit this wonderful idea. This is really nice
 when you find it, but there is a sweet spot. This is an easy principle
 to take way too far, much like the [Single Responsibility
@@ -55,8 +55,8 @@ You can even email me about them if you feel so inclined.
 
 Now that you've taken a deep breath an considered the way that Ruby
 looks up methods you've realized that a mixin is in fact inheritance. I
-personaly would like to see more libraries that are not utilizing this
-way of thinking. It is sometimes convinent and great to work with, but
+personally would like to see more libraries that are not utilizing this
+way of thinking. It is sometimes convenient and great to work with, but
 it can limit you and encourage [monkey
 patching](http://en.wikipedia.org/wiki/Monkey_patch). This doesn't come
 from any real gem, but I'm sure there is one out there that does just
@@ -70,13 +70,13 @@ class User
 end
 ```
 
-At this point out User class would have all the methods and powers to
+At this point our User class would have all the methods and powers to
 handle geolocation, and this would include the idea of [latitude and
 longitude](http://en.wikipedia.org/wiki/Geographic_coordinate_system).
 It would contain methods to find distances between points and many other
-geographical mappin tools. We have just expanded the responsibility of
+geographical mapping tools. We have just expanded the responsibility of
 our class and violated the open closed principle. I believe a much
-better approach would be to have a Geolation class that handles all of
+better approach would be to have a Geolocation class that handles all of
 these responsibilities. Some will say that is what the above does, and
 then delegates everything to the Geolocation class. Yes, that is
 possible, but it still expands the User class and gives it a whole new
@@ -98,10 +98,10 @@ class. This is still changing the interface of User, but again it is
 minimal. Gregory Brown has some more about this in his SOLID Design
 Principles
 [post](http://blog.rubybestpractices.com/posts/gregory/055-issue-23-solid-design.html).
-I would take a read through it.
+I recommend reading through it.
 
-One last little bit. Before the end of our conversation Jessia asked,
-"How do you devide your own code into concrete and abstract?" My mind
+One last little bit. Before the end of our conversation Jessica asked,
+"How do you divide your own code into concrete and abstract?" My mind
 went immediately to abstract classes in Java. I'm not sure if it applies
 to the post, but I'm going to give you a simple guideline that I
 personally like. If I am going to use inheritance and the class can
