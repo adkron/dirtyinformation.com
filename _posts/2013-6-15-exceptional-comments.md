@@ -15,15 +15,15 @@ Recently, as he does once in a while, he brought up the comment
 discussion again. This time he used this gem of a tweet:
 
 
-   Good code comment (how else could you convey?): # Let this raise its
-   exception if the fields don't exist as expected.
-   [@Adkron](http://twitter.com/adkron)
-   [@jessitron](http://twitter.com/jessitron)
-
-   [@Adkron](http://twitter.com/adkron)
-   [@jessitron](http://twitter.com/jessitron) Uh, no. It's not trying to raise an exception.
-   Just a reminder that it might. The code: user =
-   c.get_setting('username')
+>   Good code comment (how else could you convey?): # Let this raise its
+>   exception if the fields don't exist as expected.
+>   [@Adkron](http://twitter.com/adkron)
+>   [@jessitron](http://twitter.com/jessitron)
+>
+>   [@Adkron](http://twitter.com/adkron)
+>   [@jessitron](http://twitter.com/jessitron) Uh, no. It's not trying to raise an exception.
+>   Just a reminder that it might. The code: user =
+>   c.get_setting('username')
 
 Well the comment quickly degraded into a discussion about exceptions.
 Many of us agreed that there are much better ways to handle most issues.

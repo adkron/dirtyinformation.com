@@ -9,6 +9,10 @@
     @include span-columns(7);
   }
 
+  blockquote {
+    background-color: #CCC;
+  }
+
   .pair {
     @include span-columns(4);
    }

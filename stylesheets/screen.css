@@ -21,6 +21,8 @@
     width: 57.35098%; }
     .site .title:last-child {
       margin-right: 0; }
+  .site blockquote {
+    background-color: #CCC; }
   .site .pair {
     display: block;
     float: left;
