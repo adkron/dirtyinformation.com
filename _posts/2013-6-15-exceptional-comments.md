@@ -52,7 +52,7 @@ WTF! Sorry Craig, but I'm going to change from talking about how crapy
 this comment is and I'm going to talk about alternatives to throwing
 this exception. I won't even touch the fact that you only took [8
 seconds](http://en.wikipedia.org/wiki/Rodeo)
-to think about this I'm going to say the whole method sucks.
+to think about this. I'm going to say the whole method sucks.
 First, how many possible settings are in this thing? Is it like a big
 hash object? Did we have to make the method so generic? I'm going to
 assume that you think like I do in 8 seconds and that you really meant
