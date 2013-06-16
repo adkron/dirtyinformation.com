@@ -4,7 +4,7 @@ title: Exceptional Comments
 ---
 
 Once upon a time I was pairing with a friend. This friend really wanted
-to put a comment in out code. I explained that I thought if we needed a
+to put a comment in our code. I explained that I thought if we needed a
 comment that we had done a bad job of letting our code speak for itself.
 He claimed that comments should be used to explain the 'why' and not the
 'how.' This is why his comment was ok. I still disagreed and we quickly
