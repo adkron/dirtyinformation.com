@@ -89,8 +89,8 @@ I already hate it, or pulls a user from something.
 
 I think that I can dig into why returning nil is bad, but that is
 another post. I still think this is better than an exception. I believe
-that all APIs and languages should use the principle of least suprise.
-Throwing an exception and unrolling the stack is a suprise. If you are
+that all APIs and languages should use the principle of least surprise.
+Throwing an exception and unrolling the stack is a surprise. If you are
 reading the code utilizing this, it is not immediately known that this
 can throw an exception. I guess that explains Craig's comment. Although
 I also don't want to see a comment on every piece of code that throws an
