@@ -36,7 +36,7 @@ the point where many of us decided to write blog posts. As they write
 them I will update this post to links to their posts.
 
 Like most examples when we are trying to prove a point, I'm sure Craig
-didn't me for his example to be picked apart about its finer points. I
+didn't mean for his example to be picked apart about its finer points. I
 still can't help but place judgment on the point he tried to make in
 less that 140 characters and with only seconds of thought.
 
