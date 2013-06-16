@@ -222,4 +222,7 @@ Exceptions!](http://blog.jessitron.com/2013/06/whats-dirtier-than-comments-excep
 [Yin Wang - Null Reference is Not a
 Mistake](http://yinwang0.wordpress.com/2013/06/03/null/)
 
+[Joe Barnes - Option[T >
+Null]](http://proseand.co.nz/2013/06/05/optiont-null/)
+
 Let me know if you have any submissions to this fun foray.
