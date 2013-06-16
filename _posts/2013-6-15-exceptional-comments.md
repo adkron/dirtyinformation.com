@@ -67,7 +67,7 @@ It is still horrible, but we'll bear with it. We need to make small
 refactorings.
 
 First reason not to use an exception is that this doesn't seem like an
-EXCEPTIONAL CIRCUMSTANCE. I'm going to make anothe leap and assume that
+EXCEPTIONAL CIRCUMSTANCE. I'm going to make another leap of faith and assume that
 'username' is not really hard coded and it came from user input. User
 input is going to be bad. This is never exceptional. Now you are just
 using an exception as [flow
@@ -90,8 +90,8 @@ I already hate it, or pulls a user from something.
 I think that I can dig into why returning nil is bad, but that is
 another post. I still think this is better than an exception. I believe
 that all APIs and languages should use the principle of least suprise.
-Throwing and exception and unrolling the stack is a suprise. If you are
-reading the code utilizing this it is not immediately known that this
+Throwing an exception and unrolling the stack is a suprise. If you are
+reading the code utilizing this, it is not immediately known that this
 can throw an exception. I guess that explains Craig's comment. Although
 I also don't want to see a comment on every piece of code that throws an
 exception.
@@ -102,8 +102,8 @@ the comment. Then when I make it stop throwing exceptions I have to
 change all the comments. Most likely they won't get changed. Since they
 don't run I will never know. The next reader will think there is an
 exception when there isn't. You really should have written a test
-instead of an exception. You could also make the name of the method say
-that is throws and exception. That is enough of a side track on why
+instead of a comment. You could also make the name of the method say
+that it throws an exception. That is enough of a side track on why
 comments suck.
 
 Now the code utilizing this needs something like the following:
@@ -119,10 +119,11 @@ Now the code utilizing this needs something like the following:
 
 That is no better than a try catch. If we don't have that code then we
 can possibly get a null pointer exception. The problem with null pointer
-exceptions is that the cross boarders of the code silently. Often a null
+exceptions is that the cross boarders of the code silently. Insert very
+offensive boarder crossing joke here. Often a null
 pointer error occurs 15 calls away from where the null originated. These
 can be frustrating to track down. Even more so if you have
-chaind.method.calls all over your code.
+chained.method.calls all over your code.
 
 Let's try something different.
 
@@ -142,7 +143,7 @@ when you are doing TDD anyway.
 Well we've fixed the problem with a null pointer exception. At least now
 when we get the exception it will mention :user_not_found and we will be
 able to trace it to which thing.in.our.chain.is missing. Although we are
-still going to have that if that looks a lot like a begin...rescue.
+still going to have that 'if' and it looks suspiciously like a begin...rescue.
 
 ```ruby
   user = c.get_user(username)
@@ -176,22 +177,24 @@ I decided that we can pass the original username that was used to try
 and find a user so that we can look into the object and find out what
 user wasn't found. The nice thing about an object is that it can answer
 the phone for the user. In fact it is a user. It is just a special kind
-of user. Now our code using the user can just call methods with no ifs.
+of user. Now our code using the user can receive the messages intended
+for a user. The best part  NO IFs.
 
 ```ruby
   user = c.get_user(username)
   # blah user.first_name
 ```
 
-Then we can use this user to our hearts content. We can handle calls to
-it in a uniform way, and when there really is no way to handle a certain
-call. Then we can throw an exception from that specific call. I think
+Now we can use this user to our hearts content. We can handle calls to
+it in a uniform way. When there really is no way to handle a certain
+call we can throw an exception from that specific case. I think
 this puts us in a better place, and allows us more chances to make
-decisions and expand functionality. What happens when we want a guest
+decisions and expand functionality.What happens when we want a guest
 user? Well we just add that funcationality to this class. We also passed
 in a username. So if a user isn't found in the sytem we can give them
 limited access through a special NullUser, but we can still call them by
-a username since we tried to find them already.
+a username since we tried to find them already. Remmeber the NullUser
+was initailized with the failed username attempt.
 
 With this approach we have less error handling code, and we make sure
 that we are handling all cases of the missing user in the same way
@@ -199,8 +202,8 @@ without duplication. This is because we have wrapped up how to handle a
 missing user by creating that class. Infact maybe we should refactor
 NullUser to be named MissingUser or GuestUser.
 
-In case you didn't notice or have never heard of it. This Null Object
-Pattern is taking heavy use of [Poly
+In case you didn't notice, or have never heard of it, this Null Object
+Pattern is making heavy use of [Poly
 Morphism](http://c2.com/cgi/wiki?PolyMorphism). I thought that was one
 word until I just tried to look it up on the C2 wiki. Ok so maybe it is
 one word, because I know we just [Replaced a Conditional with
