@@ -4,11 +4,11 @@ title: Exceptional Comments
 ---
 
 Once upon a time I was pairing with a friend. This friend really wanted
-to put a comment in our code. I explained that I thought if we needed a
+to put a comment in our code. I explained that if we needed a
 comment that we had done a bad job of letting our code speak for itself.
 He claimed that comments should be used to explain the 'why' and not the
-'how.' This is why his comment was ok. I still disagreed and we quickly
-degraded until I made him frustrated enough that he went home. This
+'how.' This is why his comment was ok. I still disagreed and our conversation
+degraded until he became frustrated enough that he went home. This
 was not my proudest moment.
 
 Recently, as he does once in a while, he brought up the comment
@@ -30,7 +30,7 @@ Many of us agreed that there are much better ways to handle most issues.
 I'm not saying that you should never use an exception so you can put
 away your torches and pitchforks. I will say that most people are using
 them wrong. Ok, I'm not really protecting
-[CraigBuchek](http://twitter.com/CraigBuchek) since you can just google
+[CraigBuchek](http://twitter.com/CraigBuchek) since you can just Google
 for him. Maybe you should so you can see how this conversation went to
 the point where many of us decided to write blog posts. As they write
 them I will update this post to links to their posts.
@@ -48,7 +48,7 @@ This way we can view it in all its glory.
   user = c.get_setting('username')
 ```
 
-WTF! Sorry Craig, but I'm going to change from talking about how crapy
+WTF! Sorry Craig, but I'm going to change from talking about how crappy
 this comment is and I'm going to talk about alternatives to throwing
 this exception. I won't even touch the fact that you only took [8
 seconds](http://en.wikipedia.org/wiki/Rodeo)
@@ -78,7 +78,7 @@ ahead and read the rest of the [C2 wiki](http://c2.com/cgi/wiki).
 Return Nil
 ----------
 
-Ok I'm going to assume that we are using something that returns nil,
+Ok, I'm going to assume that we are using something that returns nil,
 I already hate it, or pulls a user from something.
 
 ```ruby
@@ -130,8 +130,8 @@ Let's try something different.
 Return an Error Designator
 --------------------------
 
-Ok I'm going to start only placing the error case in the original
-method. It can no longer find users. This is a great frist test case
+Ok, I'm going to start only placing the error case in the original
+method. It can no longer find users. This is a great first test case
 when you are doing TDD anyway.
 
 ```ruby
@@ -160,7 +160,7 @@ when we do get exceptions.
 Null Object Pattern
 -------------------
 
-Traditionaly, I've been told, the [Null Object
+Traditionally, I've been told, the [Null Object
 Pattern](http://c2.com/cgi/wiki?NullObject) returns an object that
 returns itself no matter what you call on it. I think that can be
 useful, sometimes. Often I believe this could hide many issues. So I
@@ -190,16 +190,16 @@ it in a uniform way. When there really is no way to handle a certain
 call we can throw an exception from that specific case. I think
 this puts us in a better place, and allows us more chances to make
 decisions and expand functionality.What happens when we want a guest
-user? Well we just add that funcationality to this class. We also passed
-in a username. So if a user isn't found in the sytem we can give them
+user? Well we just add that functionality to this class. We also passed
+in a username. So if a user isn't found in the system we can give them
 limited access through a special NullUser, but we can still call them by
-a username since we tried to find them already. Remmeber the NullUser
-was initailized with the failed username attempt.
+a username since we tried to find them already. Remember the NullUser
+was initialized with the failed username attempt.
 
 With this approach we have less error handling code, and we make sure
 that we are handling all cases of the missing user in the same way
 without duplication. This is because we have wrapped up how to handle a
-missing user by creating that class. Infact maybe we should refactor
+missing user by creating that class. In fact maybe we should refactor
 NullUser to be named MissingUser or GuestUser.
 
 In case you didn't notice, or have never heard of it, this Null Object
