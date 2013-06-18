@@ -214,7 +214,7 @@ Other Submissions to the Debate
 -------------------------------
 
 [Mario Aquino - Styles of Handling Conditional
-Logic](http://c2.com/cgi/wiki?ReplaceConditionalWithPolymorphism)
+Logic](http://marioaquino.blogspot.com/2013/06/styles-of-handling-conditional-logic.html)
 
 [Jessica Kerr - What's dirtier than comments?
 Exceptions!](http://blog.jessitron.com/2013/06/whats-dirtier-than-comments-exceptions.html)
