@@ -82,7 +82,7 @@ Almost any retrospective game could be adapted to be used with one
 person. If you are looking for ideas then you might want to check out
 [Getting Business Value out of Agile
 Retrospectives](http://www.benlinders.com/2011/getting-business-value-out-of-agile-retrospectives/)
-or [Tasty Cupcakes](tastycupcakes.org). Remember that your role as a
+or [Tasty Cupcakes](http://tastycupcakes.org). Remember that your role as a
 facilitator is even more crucial. The introspectee only has you and the
 voices in his head to converse.
 
