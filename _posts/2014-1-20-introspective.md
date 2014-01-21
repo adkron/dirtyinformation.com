@@ -4,7 +4,7 @@ title: Introspective
 ---
 
 Anyone who has been around an agile team for very long has heard of a
-retrospective. In case you are new to the game a retrospective is a
+retrospective. In case you are new to the game, a retrospective is a
 gathering of the team to reflect and find ways to improve.
 Retrospectives are a powerful tool to build close knit teams and find
 the areas we need to improve on. So we have retrospectives for teams,
@@ -34,16 +34,16 @@ The first thing I needed to do was to gather some intel from the person
 who made the original statement. Now I could have browsed my own
 thoughts in working with Craig and come up with some ideas, but I really
 thought the source should be heard. Craig agreed and I brought the
-source in on chat room and asked him some questions through Craig. This
-was nice since it kept the talk between Craig and the other party
+source in on chat room and asked him some questions from Craig. This
+was nice, since it kept the talk between Craig and the other party
 anonymous. Phew, I dodged the bullet of only having to facilitate Craig
 talking to the voices in his head.
 
 Second, the voices in Craig's head. Now how the heck am I going to do
-this. As Craig and I talked I made some small talk about improving. We
+this? As Craig and I talked I made some small talk about improving. We
 talked about the things we had seen in the past and how we thought this
 introspective might work. This may have even been where we decided to
-coin the term. As we continued talking thoughts of retrospective games,
+coin the term. As we continued talking, thoughts of retrospective games,
 and ultimate goals of retrospectives started coming to mind. Our purpose
 in a retrospective is to get to a change we can make, but that often
 deals with finding the root cause of an issue. Eureka! I could just go
@@ -74,7 +74,7 @@ about my own position on the team and how my individual behaviors can
 have a huge impact.
 
 If I were to do this exercise again I would draw a map of the root
-causes and the questions that got their. I think the drawing would be
+causes and the questions that got there. I think the drawing would be
 useful as a tool to hang up for the person, Craig in this case, as a
 reminder of their own thoughts and where they are heading in the future.
 
@@ -87,6 +87,5 @@ facilitator is even more crucial. The introspectee only has you and the
 voices in his head to converse.
 
 If you would like to hear about Craig's experience with the
-introspective he wrote a post
+introspective, he wrote a post
 [here](http://blog.boochtek.com/2014/01/19/introspective).
-
