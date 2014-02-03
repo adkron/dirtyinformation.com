@@ -47,7 +47,7 @@ Code reviews are one of my favorite practices. I love that someone else
 on the team is going to take a look at the code I wrote with my pair. I
 also like to look at other code. This is a great learning experience for
 all of us. Oh, wait I meant until the 12000 line diff pops up. Who wants
-to code review 12000 lines. Are you more likely to look at it
+to code review 12000 lines? Are you more likely to look at it
 objectively or skim right through? With small and focused stories it is
 simpler to see the design and understand what trade offs might have been
 taken. You probably even have a commit message that makes sense.
