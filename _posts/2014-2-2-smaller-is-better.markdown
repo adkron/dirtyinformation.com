@@ -42,7 +42,7 @@ shall we?
 Now, I admit that this story could go into different format issues, but
 I would stop here. This story is the right focused size. I estimate it
 at less than a day. There isn't much left open to interpretation. There
-is a little wiggle room on how the registation is not completed, but
+is a little wiggle room on how the registration is not completed, but
 there isn't room to run. It would be very difficult for the scope
 creeper to rear his ugly head. Scope creeper says, "I just saw that we
 need to make sure the user provides a password." You can respond with,
@@ -62,12 +62,12 @@ Your code made it past code review and it is on to QA to take a stab at
 it. How many times has QA asked you why your story doesn't do x? How
 many times has good functionality been held up because of a vague story?
 With the focused story above QA can concentrate on what matters. How
-many different ways can I not propperly format and email?
+many different ways can I not properly format and email?
 
-The penultimate advantage to small stories is the flexibilty
+The penultimate advantage to small stories is the flexibility
 provided to the customer in planning and priority discussions. When small
 pieces of functionality are constantly provided to the customer they can
-more intellegently decide what the priorities should be. Let's say that
+more intelligently decide what the priorities should be. Let's say that
 the original design of our registration had the user verify their email.
 I know I love typing my email twice on every registration.
 
@@ -82,10 +82,10 @@ in a time constrained situation. We know that we are always time
 constrained. Now we get it out the door and find out that very few users
 are fat fingering and the customer would much rather do the game
 changing feature that we are excited about. We are also so happy that
-another customer didn't make our users jump through some arbitraty hoop
+another customer didn't make our users jump through some arbitrary hoop
 in order to use the product. We saved the day with a small story.
 
-Now, the moment you've beed waiting for, the ultimate fun in small
+Now, the moment you've been waiting for, the ultimate fun in small
 stories, throwing them away. Wait, what? Doesn't that mean we wasted our
 time writing the story. NO! A story is a promise of a conversation. It
 is not a promise of a delivered piece of functionality. Scope creeper
@@ -98,7 +98,7 @@ came in and said what about:
 ```
 
 When we get around to coding this we notice that this is already halted
-by the email format story we aleady completed. The customer decides that
+by the email format story we already completed. The customer decides that
 the error message we provided earlier is good enough for a blank email.
 SCORE! We can now toss that story in the trash and get back to that game
 changer.
