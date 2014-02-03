@@ -11,27 +11,22 @@ title: Smaller is Better
 
 "Isn't this one small enough."
 
-I know that we have all been here and we have been in meetings like
+We have all been been in meetings like
 this. Someone on the team is pushing for tiny stories and we just want
-to get to work. I agree with getting to work if you are using
-[Continuous Flow](https://en.wikipedia.org/wiki/Continuous_Flow_Manufacturing).
-Although that isn't saving you from breaking down your stories. They
-should still be small so you should be constantly breaking down and
-adding stories to your priority queue.
+to get to work. I'm here to tell you that you might want to keep
+splitting the stories.
 
 What is up with all this obsession over tiny stories?
 
-Think back to the last few stories that your team was asked to estimate
-and complete. How accurate where your estimates? I'm willing to bet that
-your estimates where not accurate, or you had to cut corners to meet
+Think back to the last few stories that your team was asked to estimate.
+How accurate where your estimates? I'm willing to bet that
+your estimates where shy of their mark, or you had to cut corners to meet
 them. How accurate is the last story that you estimated at two weeks?
-How accurate was the last story that you estimated at two hours? I'm
-not sure that I have to convince you that the two hour estimate is going
-to be closer to reality. The further out that we have to predict
-anything the harder it is to be right.
+How accurate was the last story that you estimated at two hours? Which
+was closer to the mark? The further out that we have to predict anything the
+harder it is to be right.
 
-Small stories are far more focused. Let's just look at a small story,
-shall we?
+Let's just look at a small story, shall we?
 
 ```
   Given I attempt to register
@@ -39,15 +34,14 @@ shall we?
   Then my registration cannot be completed
 ```
 
-Now, I admit that this story could go into different format issues, but
-I would stop here. This story is the right focused size. I estimate it
-at less than a day. There isn't much left open to interpretation. There
-is a little wiggle room on how the registration is not completed, but
-there isn't room to run. It would be very difficult for the scope
-creeper to rear his ugly head. Scope creeper says, "I just saw that we
-need to make sure the user provides a password." You can respond with,
-"Yeah, we should make another story and throw it in the queue and get
-back to the EMAIL ADDRESS!" Then move on.
+Now, I admit that this story could deal with an obscene amount of format issues, but
+I would stop right here. I estimate it at less than a day. There isn't
+much left open to interpretation. There is a little wiggle room on how
+the registration is not completed, but there isn't room to run wild. It would
+be very difficult for the scope creeper to rear his ugly head. Scope
+creeper says, "I just saw that we need to make sure the user provides a
+password." You can respond with, "Yeah, we should make another story
+and throw it in the queue and get back to the EMAIL ADDRESS!" Then move on.
 
 Code reviews are one of my favorite practices. I love that someone else
 on the team is going to take a look at the code I wrote with my pair. I
