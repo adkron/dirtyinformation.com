@@ -89,3 +89,19 @@ above. You could have a power user persona that uses keyboard shortcuts,
 a mouser who uses mouse gestures, and a clicker who loves the buttons. I
 would suggest each persona also be its own story. I think I just jumped
 to a new topic? I guess we'll save that idea for another day.
+
+Edit
+----
+
+I would actually remove the scenario with no Given and replace it with
+two scenarios that cover a larger set of circumstances.
+
+```Cucumber
+  Given a set of search results
+  When I am on the last page
+  Then I may only go to previous pages
+
+  Given a set of search results
+  When I am on the first page
+  Then I may only proceed to the next pages
+```
