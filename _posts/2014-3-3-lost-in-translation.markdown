@@ -65,7 +65,7 @@ on it wanted to add this to the code:
 They thought this would provide some expandability in the future if
 Submissions and Articles became separate classes. I really appreciated
 their ability to find the noun, but I also wanted to cry. Do you know what
-these controllers do with that change? Neither did I.
+these controllers do now? Neither do I.
 
 You see there is nothing to reveal intention in this code. If you've
 known me a while you will also know that I am not one for comments,
@@ -105,14 +105,16 @@ params hack someone could publish an article when they submitted it. The
 whole point of the software was to make the work flow of getting news to
 the presses.
 
-ActiveRecord has a very broad interface. I don't know if it was [Avdi](http://devblog.avdi.org/) or
-[Ernie](http://erniemiller.org/) who said it is an infinite interface. This is very true in methods
-like `update_attributes`. The intention of its use is determined by its
-inputs. This leads to a lot of power, but lacks fine grained controls.
-This is why the Rails core team had to implement [strong parameters](http://weblog.rubyonrails.org/2012/3/21/strong-parameters/). I
-think these are great in the battle field of security, but still not
+ActiveRecord has a very broad interface.
+[Avdi](http://devblog.avdi.org/) calls it
+an "infinite interface." This is very true in methods like
+`update_attributes` and others that take an attributes hash. The
+intention of its use is determined by its inputs. This leads to a lot of
+power, but lacks fine grained controls.  This is why the Rails core team
+had to implement
+[strong parameters](http://weblog.rubyonrails.org/2012/3/21/strong-parameters/).
+I think these are great in the battle field of security, but still not
 showing the intention of our code.
-
 
 After many examples like this I'm asking you to put away the hammer.
 Pull out your screwdrivers, air guns and multitude of other tools. Pick
