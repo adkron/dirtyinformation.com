@@ -3,7 +3,7 @@ layout: post
 title: An Agile Contract
 ---
 
-In starting my own business people always ask how I right contracts that
+In starting my own business people always ask how I write contracts that
 don't have a fixed price or a well defined scope. I'd love to talk about
 my wizardry of speaking or how amazing I am with my words, but you've
 read my blog. I only tell the truth as I know it and am confident in
