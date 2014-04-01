@@ -7,7 +7,7 @@ In starting my own business people always ask how I write contracts that
 don't have a fixed price or a well defined scope. I'd love to talk about
 my wizardry of speaking or how amazing I am with my words, but you've
 read my blog. I only tell the truth as I know it and am confident in
-what I say. So there is no big secret to leaving our scope and getting
+what I say. So there is no big secret to leaving out scope and getting
 contracts that aren't based on a fixed bid. It isn't your place to set
 their budget, and fixed bid contracts rarely leave either side happy. So
 I thought I would share this contract with you, or at least a portion of
