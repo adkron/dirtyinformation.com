@@ -73,12 +73,12 @@ end
 Ok that isn't complete, but I think we have enough to see how this is
 going. So we describe each method in turn. Each method then has a list
 of states that go along with it to determine how we travel through that
-method in each case. This makes complete sense, or does it.
+method in each case. This makes complete sense, or does it?
 
 This is going to be the whole secret. Wait for it...wait for it...use
-the force, Luke, trust your instincts. Sorry, I got a little side
-tracked. BUTTERFLY! Move the context to the outside. Describe the
-"behavior" with in a context. That is what makes it BDD.
+the force, Luke, trust your instincts. Sorry, I got a little
+sidetracked. BUTTERFLY! Move the context to the outside. Describe the
+"behavior" within a context. That is what makes it BDD.
 
 ~~~ruby
 describe Fifo do
