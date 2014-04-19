@@ -9,7 +9,7 @@ organizer of two Ruby groups. I record a weekly
 am a husband, a parent, and a foster parent. There are a huge amount of
 _I_s to go around. Sometimes I wonder how I keep going.
 
-All of this business has me thinking about why I do all of these things.
+All of this business has me thinking about why I do all the things.
 What do I want? What drives me? I can say there is no shortage of
 passion for any of my activities. For this blog I will focus on
 business and programming.
@@ -25,7 +25,7 @@ products. I want to delight my customers and leave them in a better
 position than I found them. I want them to have the freedom to hire
 anyone in the world, but come to me because they know I care.
 
-Leaning is a very important part of the satisfaction I get from my
+Learning is a very important part of the satisfaction I get from my
 career. I want to make sure that I am sharing what I learn with those
 around me. This is part of the reason I am on the podcast. I want to
 share myself with the world. I don't want others to make the same
@@ -52,7 +52,7 @@ team get started. I've been on long term projects and they are
 fantastic, but I really love helping people get to their vision with a
 sustainable piece of software. Too many startups end up with loads of
 tech debt by the time their product hits the market. This tech debt then
-slows them down so the competition can arise and over take them. I love
+slows them down so the competition can arise and overtake them. I love
 showing companies how to [live like no one else, so that they can live
 like no one else](http://www.daveramsey.com/home/).
 
