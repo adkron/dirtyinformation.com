@@ -7,7 +7,7 @@
   height: 0px;
 }
 .highlight pre {
-  background: #FEFEFE;
+  background: #EEE;
   color: #333;
   line-height: 100%;
 }
@@ -66,7 +66,7 @@
 .sx { color: #008000 } /* Literal.String.Other */
 .sr { color: #BB6688 } /* Literal.String.Regex */
 .s1 { color: #BA2121 } /* Literal.String.Single */
-.ss { color: #19177C } /* Literal.String.Symbol */
+.ss { color: #3723CA } /* Literal.String.Symbol */
 .bp { color: #008000 } /* Name.Builtin.Pseudo */
 .vc { color: #19177C } /* Name.Variable.Class */
 .vg { color: #19177C } /* Name.Variable.Global */
