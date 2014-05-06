@@ -27,7 +27,7 @@ arrows. The `_` is a one character time saver that makes me smile every
 time I get to share it with someone new.
 
 The second trick I learned was a
-(happy little accident)[https://en.wikipedia.org/wiki/Bob_Ross]. I
+[happy little accident](https://en.wikipedia.org/wiki/Bob_Ross). I
 thought I was in the terminal and I used `CTRL-R` to search back
 through previous commands. If you have never used `CTRL-R` in the terminal
 this is a double [whammy](https://en.wikipedia.org/wiki/Press_Your_Luck).
