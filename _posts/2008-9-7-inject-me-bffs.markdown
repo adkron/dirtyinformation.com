@@ -7,7 +7,6 @@ I find myself turning to [Enumberable#inject](http://apidock.com/ruby/Enumerable
 
 ## Adding Factorial to All Integers
 
-```ruby
 {% highlight ruby %}
 class Integer
   def factorial
@@ -17,11 +16,9 @@ class Integer
   end
 end
 {% endhighlight %}
-```
 
 ## Removing Touching Matching Elements in an Array Until No Touching Elements Match( thanks Eric )
 
-```ruby
 {% highlight ruby %}
 class Array
   def remove_touchers
@@ -29,7 +26,6 @@ class Array
   end
 end
 {% endhighlight %}
-```
 
 So, why aren't there more people using this method?  Is it just forgotten?  Are you using [Enumberable#inject](http://apidock.com/ruby/Enumerable/inject)?
 How are you using it?
