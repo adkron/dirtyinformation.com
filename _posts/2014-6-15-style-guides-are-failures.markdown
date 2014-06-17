@@ -83,4 +83,5 @@ raise](http://rubyrogues.com/151-rr-the-jim-weirich-tribute-episode/).
 
 Let's all take a lesson from Jim and spend sometime asking "why" when we
 make decisions to have a certain style in our code. Squeeze every drop of
-intention out of ever character your language allows.
+intention out of ever character your language allows. Are there any
+others you can think of?
