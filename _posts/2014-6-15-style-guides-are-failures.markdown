@@ -77,7 +77,8 @@ for this example.
   end
 ```
 
-Jim was great about communication instead of looks. Another example is
+Jim was great about making communication more significant than aesthetics without
+losing the appeal of the viewer. Another example is
 his use of [fail vs
 raise](http://rubyrogues.com/151-rr-the-jim-weirich-tribute-episode/).
 
