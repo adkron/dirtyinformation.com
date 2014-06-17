@@ -26,7 +26,7 @@ style with communication. The easy part is over.
 Next, it is time to go through our old style guide and start asking
 ourselves "why?" Each decision that can be done in multiple ways needs
 to have a communicating reason that doesn't reach into what the look of
-the code. Looks are important, but your choices need to all the code to
+the code. Looks are important, but your choices need to help all the code to
 communicate more. Let's take an example from the ruby world.
 
 ```ruby
