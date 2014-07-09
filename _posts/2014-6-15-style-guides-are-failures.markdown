@@ -25,9 +25,9 @@ style with communication. The easy part is over.
 
 Next, it is time to go through our old style guide and start asking
 ourselves "why?" Each decision that can be done in multiple ways needs
-to have a communicating reason that doesn't reach into what the look of
-the code. Looks are important, but your choices need to help the code to
-communicate more. Let's take an example from the ruby world.
+to have a communicating reason that doesn't reach into what the code looks like.
+Looks are important, but your choices need to allow the code to
+communicate more. Let's take an example from the Ruby world.
 
 ```ruby
   #Style Guide
@@ -43,7 +43,7 @@ communicate more. Let's take an example from the ruby world.
   end
 ```
 
-The why here is based on looks, and not on communicating intention or
+The "why" here is based on looks, and not on communicating intention or
 anything else. The hardest thing to communicate is intention. We are
 communicating the number of lines, but that should be pretty clear
 by counting. This also introduces incidental change when we find out we
@@ -79,7 +79,7 @@ for this example.
 
 Jim was great about making communication more significant than aesthetics without
 losing the appeal of the viewer. Another example is
-his use of [fail vs
+his use of [fail vs.
 raise](http://rubyrogues.com/151-rr-the-jim-weirich-tribute-episode/).
 
 Let's all take a lesson from Jim and spend sometime asking "why" when we
