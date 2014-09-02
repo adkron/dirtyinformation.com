@@ -9,12 +9,12 @@ standard libraries.
 
 'A' begins the alphabet and it would be so easy to start out with Ruby's
 [Array](http://ruby-doc.org/core-2.0.0/Array.html). Everyone knows there
-are many amazing ways to travers, and manipulate Ruby's array, but we
+are many amazing ways to traverse, and manipulate Ruby's array, but we
 want to grow in our knowledge. Instead of Array we set our sites on a
 very small Module,
 [Abbrev](http://ruby-doc.org/stdlib-2.0.0/libdoc/abbrev/rdoc/Abbrev.html).
 
-Weighig in at only 131 lines there isn't much to talk about. Once we put
+Weighing in at only 131 lines there isn't much to talk about. Once we put
 it on a comment diet Abbrev has a mere 44 lines of code. These 44 lines
 create only two methods.
 
