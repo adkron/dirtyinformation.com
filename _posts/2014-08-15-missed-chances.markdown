@@ -10,19 +10,19 @@ way in danger of running out any time soon, but I'm still having a hard
 time getting my head into the situation I am in.
 
 The progress of sales can be very hard to measure. Conversations can
-seem to speed very quickly and then grind to a hault. Therefor it is
-extreamly difficult for me to feel accomplished until a sale is complete.
+seem to speed very quickly and then grind to a halt. Therefore it is
+extremely difficult for me to feel accomplished until a sale is complete.
 What can we do make sales go faster?
 
 I don't know the answer to that question, but I do have some ideas on
 when to concentrate on sales. Always! At the beginning of building my
 company I was constantly talking to potential customers, and marketing
 my services. I spent months telling customers that I had no current
-availablity. I began to feel bad for always saying no. I thought it
+availability. I began to feel bad for always saying no. I thought it
 would hurt my chances of working with these potential customers in the
 future. I stopped advertising and marketing.
 
-Stopping my marketing was the worst thing that could have happenned to my
+Stopping my marketing was the worst thing that could have happened to my
 pipeline. When I finished two contracts at once I was left out in the
 cold with no work. I had to start over at building new relationships.
 Many of the old relationships are still there, but they are not as
