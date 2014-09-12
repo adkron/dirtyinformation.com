@@ -10,7 +10,7 @@ way in danger of running out any time soon, but I'm still having a hard
 time getting my head into the situation I am in.
 
 The progress of sales can be very hard to measure. Conversations can
-seems to speed very quickly and then grind to a hault. Therefor it is
+seem to speed very quickly and then grind to a hault. Therefor it is
 extreamly difficult for me to feel accomplished until a sale is complete.
 What can we do make sales go faster?
 
