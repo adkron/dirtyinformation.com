@@ -22,7 +22,7 @@ their underlying causes everyone should read
 [this](https://en.wikipedia.org/wiki/Floating_point#Accuracy_problems).
 Don't go away quite yet. There is a way to solve this problem.
 
-The superhero of our day is BigDecimal. Let's take out example from
+The superhero of our day is BigDecimal. Let's take our example from
 above.
 
 ```ruby
@@ -35,7 +35,7 @@ You will need to be familiar with [scientific
 notation](https://en.wikipedia.org/wiki/Scientific_notation) in order to
 understand the output.
 
-Notice that the output no longer suffers from the same issues at the
+Notice that the output no longer suffers from the same issues as the
 above. There is one small issue that I have found in creating a new
 BigDecimal with a floating point argument.
 
