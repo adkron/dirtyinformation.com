@@ -35,7 +35,7 @@ that the conversation went something like this:
 
 > You: Sure.
 
-You notice that little tactic about how smart you are. You feel for
+You notice that little tactic about how smart you are. You fell for
 that? Wow, We've got a lot of work to do. We'll save the verbal ego
 trick detector for another day. Today we are going to focus on the
 possible outcomes of this situation.
