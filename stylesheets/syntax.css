@@ -10,6 +10,7 @@ pre.highlight {
   background: #EEEEF8;
   color: #333;
   line-height: 100%;
+  overflow: auto;
 }
 .hll { background-color: #ffffcc }
 .c { color: #408080; font-style: italic } /* Comment */
