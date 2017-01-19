@@ -1,5 +1,4 @@
 base_url: /
-pygments: true
 future: false
 lsi: false
 permalink: /blog/:year/:month/:day/:title
@@ -8,4 +7,4 @@ url: http://dirtyinformation.com
 markdown: kramdown
 name: Dirty Information
 description: Raw ramblings about software development
-
+highlighter: rouge
