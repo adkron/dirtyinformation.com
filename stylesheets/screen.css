@@ -3,6 +3,10 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+body {
+  background: #FAFFFA
+}
+
 .site {
   *zoom: 1;
   max-width: 68em;
