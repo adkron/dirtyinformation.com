@@ -6,7 +6,7 @@
 .highlight br {
   height: 0px;
 }
-.highlight pre {
+pre.highlight {
   background: #EEE;
   color: #333;
   line-height: 100%;
