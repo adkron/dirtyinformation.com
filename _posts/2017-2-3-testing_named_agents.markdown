@@ -32,7 +32,7 @@ end
 
 Done, we are well on our way to winning.
 
-Time to write some tests frist because we are awesome developers.
+Time to write some tests first because we are awesome developers.
 Our tests utilize the counter that we started in the application so
 there is no need to worry about starting the link on our own. This makes
 for a nice clutter free test.
@@ -237,7 +237,7 @@ end
 ~~~
 
 With all this code in place we run our tests one last time, or fifty
-times because we are scared of the heisenbug coming back.
+times because we are scared of the Heisenbug coming back.
 
 ~~~bash
 amos@Noggin:~/workspace/$ mix test
