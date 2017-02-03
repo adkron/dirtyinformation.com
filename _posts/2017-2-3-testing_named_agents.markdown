@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Testing Names Agents
+  title: Testing Named Agents
 ---
 
 *TLDR; When testing named agents that are started by an Elixir
